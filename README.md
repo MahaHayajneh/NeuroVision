@@ -9,8 +9,23 @@
 ### **Motivation**
 Radiologists often face challenges in accurately identifying brain tumors using 2D MRI slices. NeuroVision addresses these limitations by providing 3D representations of brain tumors, enabling a more comprehensive and detailed analysis.
 
-### **Objective**
-To enhance the precision of brain tumor diagnosis and treatment planning by leveraging AI-powered 3D segmentation and visualization techniques.
+### **Scope**
+The project focuses on brain tumor segmentation using MRI scans, providing 3D visualizations to assist medical professionals. It employs the BraTS 2020 dataset and 3D U-Net architecture to achieve high segmentation accuracy.
+
+### **Limitations**
+1. **Tumor Heterogeneity:** Challenges in segmenting tumors with varying sizes and shapes.
+2. **Data Quality Dependency:** Performance heavily relies on high-quality MRI scans.
+3. **Computational Resources:** Requires significant GPU memory and computational power.
+4. **Complex Tumor Features:** Struggles with necrotic cores, edema, and other intricate tumor characteristics.
+5. **Clinical Validation:** Limited availability of precise ground truth annotations for benchmarking.
+6. **User Training:** Medical professionals may require training to interpret results effectively.
+
+### **Future Work**
+1. **Training Techniques:** Incorporate more efficient methods to improve model accuracy without increasing computational demands.
+2. **Enhanced GUI Design:** Simplify and optimize the user interface for ease of use by medical professionals of varying expertise.
+3. **Workflow Integration:** Develop seamless integration with hospital and clinic information systems.
+4. **Predictive Analytics:** Extend functionality to predict tumor growth and progression.
+5. **Hardware Optimization:** Improve the system’s performance on devices with limited computational capabilities.
 
 ---
 
